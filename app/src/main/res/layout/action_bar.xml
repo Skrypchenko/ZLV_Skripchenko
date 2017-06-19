@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000">
+    <ImageButton
+        android:id="@+id/id_goto_network"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|left"
+        android:src="@drawable/server"
+        android:scaleY="0.8"
+        android:scaleX="0.8"
+        android:contentDescription="TODO"/>
+		
+    <ImageButton
+        android:id="@+id/btnAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|right"
+        android:src="@drawable/add"
+       android:contentDescription="TODO"/>
+</FrameLayout>

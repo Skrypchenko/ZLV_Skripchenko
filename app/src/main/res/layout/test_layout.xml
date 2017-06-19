@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/id_tv_code"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:hint="Some text"  />
+
+    <Button
+        android:id="@+id/id_button_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET" />
+
+
+
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/id_tv_code_post"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        android:hint="Some text"
+        />
+
+    <Button
+        android:id="@+id/id_button_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST" />
+
+
+</LinearLayout>
